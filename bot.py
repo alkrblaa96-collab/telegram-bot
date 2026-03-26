@@ -7,4 +7,6 @@ bot = telebot.TeleBot(TOKEN)
 def start(message):
     bot.reply_to(message, "هلا حبيبي البوت شغال 🔥")
 
+print("Bot started...")
+
 bot.infinity_polling()
